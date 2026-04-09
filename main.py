@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Shapiro_Counts.csv")
+df = pd.read_csv("data1.csv")
 #Filtrowanie lat 2000-2016
 df_filtered = df[(df["year"] >= 2000) & (df["year"] <= 2016)]
 
