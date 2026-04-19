@@ -6,6 +6,14 @@ Nazwa projektu: Jak zmieniała się liczebność zaobserwowanych motyli w Kalifo
 Opis: Celem projektu jest analiza zmian liczebności motyli w Kalifornii w latach 2000–2016 na podstawie danych monitoringowych.
 Projekt ma na celu zidentyfikowanie trendów w czasie oraz porównanie liczebności wybranych gatunków motyli.
 
+===GRUPA=== 
+Lab grupa, ID, Nazwisko, Imie 
+7, , Banasiewicz, Aleksandra
+7, , Ciarka, Natalia 
+7, 73134, Gawda, Agata 
+7, , Kęska, Karolina
+7, , Kołodziejczyk, Milena
+
 ## Opis danych
 Dane zawierają informacje o liczbie zaobserwowanych motyli w poszczególnych latach oraz dla różnych gatunków.
 
