@@ -61,3 +61,24 @@ for species in pivot_data.columns:
         print(f"- {species}: {change_species:.2f}%")
     else:
         print(f"- {species}: Niemożliwe do obliczenia (początkowa wartość w 2000 to 0)")
+
+#Współczynnik zmienności
+yearly_species_sum = df_filtered.pivot_table(index="year",
+                                             columns="genus_species",
+                                             values="count",
+                                             aggfunc="sum",
+                                             fill_value=0)
+
+species_cv = (yearly_species_sum.std() / yearly_species_sum.mean()) * 100
+
+# Filtrowanie nieskończoności i sortowanie
+species_cv = species_cv.replace([float('inf'), -float('inf')], pd.NA).dropna()
+species_cv = species_cv.sort_values(ascending=False)
+
+print("\nTOP 5 GATUNKÓW O NAJWIĘKSZYCH WAHANIACH POPULACJI W LATACH 2000-2016")
+for species, cv in species_cv.head(5).items():
+    print(f"- {species}: Współczynnik zmienności = {cv:.2f}%")
+
+print("\nTOP 5 NAJBARDZIEJ STABILNYCH GATUNKÓW W LATACH 2000-2016")
+for species, cv in species_cv.tail(5).items():
+    print(f"- {species}: Współczynnik zmienności = {cv:.2f}%")
