@@ -14,8 +14,9 @@ Lab grupa, ID, Nazwisko, Imie
 7, , Kęska, Karolina
 7, , Kołodziejczyk, Milena
 
-## Opis danych
-Dane zawierają informacje o liczbie zaobserwowanych motyli w poszczególnych latach oraz dla różnych gatunków.
+===WKLAD=== 
+ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
+ 
 
 ===ZMIENNE=== 
 - site_name - lokalizacja
