@@ -16,7 +16,17 @@ Lab grupa, ID, Nazwisko, Imie
 
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
- 
+
+===PYTANIA BADAWCZE=== 
+1. 
+2. 
+3. 
+
+===ZRODLA DANYCH=== 
+=1= 
+Nazwa zrodla: 
+Nazwa danych: 
+Dataset URL: 
 
 ===ZMIENNE=== 
 - site_name - lokalizacja
@@ -27,6 +37,14 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 - year - rok obserwacji 
 - day - dzień w roku, w któym odbyła się obserwacja
 
+===ANALIZA=== 
+1. 
+2. 
+3. 
+
+===SRODOWISKO=== 
+Python version: 
+Main libraries: 
 
 ## Metody analizy
 W projekcie wykorzystano:
@@ -40,8 +58,8 @@ Wykonane analizy:
 - obliczenie zmiany procentowej
 - analiza 5 najczęściej występujących gatunków
 
-## Struktura projektu
-P2_2_Motylki/
+===ZAWARTOSC=== 
+P2_7_Etap2/
 │
 ├── README.md # opis projektu
 ├── main.py # główny kod analizy
