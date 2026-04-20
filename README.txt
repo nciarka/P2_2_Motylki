@@ -43,14 +43,8 @@ Dataset URL:
 3. 
 
 ===SRODOWISKO=== 
-Python version: 
-Main libraries: 
-
-## Metody analizy
-W projekcie wykorzystano:
-- Python
-- bibliotekę pandas (analiza danych)
-- bibliotekę matplotlib (wizualizacja)
+Python version: 3.14
+Main libraries: pandas==3.0.2, matplotlib==3.10.8
 
 Wykonane analizy:
 - agregacja danych rocznych
