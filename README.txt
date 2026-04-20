@@ -9,7 +9,7 @@ Projekt ma na celu zidentyfikowanie trendów w czasie oraz porównanie liczebno�
 ===GRUPA=== 
 Lab grupa, ID, Nazwisko, Imie 
 7, , Banasiewicz, Aleksandra
-7, , Ciarka, Natalia 
+7, 72791, Ciarka, Natalia 
 7, 73134, Gawda, Agata 
 7, , Kęska, Karolina
 7, , Kołodziejczyk, Milena
